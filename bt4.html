@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1{ grid-area: header; text-align: right;}
+        .item2{ grid-area: menu; background-image: url(img/back.jpg); width: 185px;}
+        .item3{ grid-area: Started;}
+        .item4{ grid-area: Memo;}
+        .item5{ grid-area: Box; background-color: beige ; height: 200px ; width: 300px;}
+        .item6{ grid-area: footer; color: yellow;}
+
+        #grid-container{
+            display: grid;
+            grid-template-areas: 
+            'header header header header header'
+            'menu Started Started Started Started'
+            'menu Memo Memo Box Box'
+            'menu footer footer footer footer'
+            ;
+        }
+        
+    p{ margin: 0; color: brown;}
+    h2{ color: goldenrod;}
+    h3{ color: goldenrod;}
+    li{ color: brown;}
+    hr{ background-color: yellow; margin: 0%;}
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div class="item1">
+            <img src="img/scraps.jpg" alt="">
+            <hr>
+    </div>
+
+    <div class="item2">
+        <p><a href="">Home</a></p>
+        <hr>
+        <p><a href="">Lorem.</a></p>
+        <hr>
+        <p><a href="">Lorem, ipsum.</a></p>
+        <hr>
+        <p><a href="">Lorem.</a></p>
+        <hr>
+        <p><a href="">Lorem, ipsum dolor.</a></p>
+        <hr>
+        <p><a href="">Lorem, ipsum.</a></p>
+        <hr>
+        <p><a href="">Home</a></p>
+        <hr>
+        <p><a href="">Home</a></p>
+        <hr>
+    
+    </div>
+
+    <div class="item3">
+        <h2>Getting Started</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime temporibus dicta magni, neque voluptates totam architecto tempore quae dolor, possimus vitae alias enim, laudantium nostrum pariatur facere sed ex illum!</p>
+
+    </div>
+
+    <div class="item4">
+        <h2>Preserving Your Memories</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, vero, quia ad maiores delectus molestias accusamus ipsa illum, incidunt doloribus atque pariatur debitis omnis perferendis quos? Obcaecati facere, numquam eos voluptatum doloribus dolores optio eum qui, aspernatur, illum cum veritatis impedit nemo. Rerum fugit nemo eos quae expedita voluptates dicta excepturi sunt illo quidem debitis facilis ut, laborum voluptas soluta exercitationem atque non natus dolorem nobis ratione placeat! Suscipit saepe sint, odio natus necessitatibus dolorum et cumque repellendus quaerat, perferendis eveniet fugiat adipisci. Dignissimos ex quas nulla, voluptatum, molestias suscipit natus, atque necessitatibus aliquam quaerat dicta. Labore dolores consequuntur vero quidem, blanditiis velit qui sit culpa! Aperiam doloribus consectetur fugit? Doloremque, suscipit laboriosam rerum excepturi est dolore ipsum vel vero deserunt, reiciendis accusantium dolores. Sint autem reiciendis nemo omnis quos impedit adipisci facere deleniti, accusamus dolor vel laudantium necessitatibus id! Itaque eligendi tenetur a quos provident nobis nesciunt magnam consectetur?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti voluptatem totam sunt corporis architecto molestiae voluptatum nihil officiis at! Reprehenderit consequuntur sequi nam nulla odit voluptas, dolorum quia error.</p>
+    </div>
+       
+    <div class="item5">
+        <h3>Basic Materials</h3>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum dolor.</li>
+
+    </div>
+        
+    <div class="item6">
+        <hr>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, harum.</p>    
+    </div>
+    
+    </div>
+
+</body>
+</html>
